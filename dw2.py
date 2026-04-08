@@ -7,9 +7,9 @@ import re
 from pathlib import Path
 from tqdm import tqdm
 
-SPECIES_NAME = "Hibiscus rosa-sinensis"
+SPECIES_NAME = "Podocarpus costalis"
 TARGET_IMAGES = 1000
-OUTPUT_DIR = Path("dataset/Hibiscus rosa-sinensis")
+OUTPUT_DIR = Path("dataset/Podocarpus costalis")
 METADATA_FILE = OUTPUT_DIR / "metadata.jsonl"
 
 API_URL = "https://api.inaturalist.org/v1/observations"
